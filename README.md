@@ -4,10 +4,26 @@ This project leverages Gemma-3 vision capabilities and Streamlit to create a 100
 
 ## Installation and setup
 
+**Set virtual environment**:
+```bash
+python -m venv ocr-gemma3-env
+```
+
+On macOS and Linux:
+```bash
+source ocr-gemma3-env/bin/activate
+```
+
+On Windows:
+```bash
+ocr-gemma3-env\Scripts\activate
+```
+
+
 **Install Dependencies**:
    Ensure you have Python 3.11 or later installed.
    ```bash
-   pip install streamlit ollama pillow
+   pip install -r requirements.txt
    ```
 
 **Setup Ollama**:
