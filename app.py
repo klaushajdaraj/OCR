@@ -14,11 +14,11 @@ st.set_page_config(
 
 # Title and description in main area
 st.markdown(
-    """
-    # <img src="data:image/png;base64,{}" width="50" style="vertical-align: -12px;"> Gemma-3 OCR
-""".format(
-        base64.b64encode(open("./assets/gemma3.png", "rb").read()).decode()
-    ),
+    f"""
+    # <img src="data:image/png;base64,
+    # {base64.b64encode(open("./assets/gemma3.png", "rb").read()).decode()}
+    # " width="50" style="vertical-align: -12px;"> Gemma-3 OCR
+    """,
     unsafe_allow_html=True,
 )
 
