@@ -1,8 +1,8 @@
 import streamlit as st
 import ollama
-from PIL import Image
-import io
 import base64
+
+from PIL import Image
 
 # Page configuration
 st.set_page_config(
