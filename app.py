@@ -1,6 +1,6 @@
-import streamlit as st
-import ollama
 import base64
+import ollama
+import streamlit as st
 
 from PIL import Image
 
