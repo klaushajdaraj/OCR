@@ -36,6 +36,11 @@ ocr-gemma3-env\Scripts\activate
    # pull gemma-3 vision model
    ollama run gemma3:12b
    ```
+
+**Run the Streamlit app**:
+```bash
+streamlit run streamlit_app.py
+```
 ---
 
-Made with ❤️ using Gemma-3 Vision Model
+Made with ❤️
